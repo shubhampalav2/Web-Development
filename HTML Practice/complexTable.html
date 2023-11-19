@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Months</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jan</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Feb</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Mar</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br />
+
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: rgb(255, 166, 0);" />
+            <col span="2" style="background-color:greenyellow;" />
+            <col span="1" style="background-color: aqua;" />
+        </colgroup>
+        <caption>Healthy Routine Table</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Eating</th>
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2 Hours After Eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>TimeTable</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8.00 am</td>
+                <td rowspan="2">5.00 pm</td>
+                <td>Introduction to XML</td>
+            </tr>
+
+            <tr>
+                <td>Validity:DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8.00 am</td>
+                <td>11.00 am</td>
+                <td>XPath</td>
+            </tr>
+            <tr>
+                <td>11.00 am</td>
+                <td>2.00 pm</td>
+                <td rowspan="2">Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>2.00 pm</td>
+                <td>5.00 pm</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>8.00 am</td>
+                <td>12.00 pm</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
