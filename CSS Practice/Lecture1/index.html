@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Share&family=Tajawal:wght@500&display=swap');
+
+        * {
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-family: 'Share', sans-serif;
+            font-family: 'Tajawal', sans-serif;
+        }
+
+        p {
+            color: red;
+            font-size: larger;
+            border: 1px solid crimson;
+            text-transform: capitalize;
+        }
+
+        table {
+            border: 10px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 10px solid black;
+        }
+
+        .small {
+            font-size: small;
+        }
+
+        .larger {
+            font-size: larger;
+        }
+
+        #first_btn {
+            background-color: aqua;
+        }
+
+        #info+h3 {
+            font-family: cursive;
+            font-style: oblique;
+            font-variant: small-caps;
+        }
+
+        input[type='number'] {
+            margin-top: 12px;
+            font-family: cursive;
+            text-emphasis: unset;
+        }
+
+        /* Pseudo Class */
+        p:nth-of-type(2n+1) {
+            color: coral;
+        }
+
+        /* Pseudo Element Selector */
+        p::selection {
+            background-color: rgb(246, 255, 0);
+        }
+
+        #info+h3::first-letter {
+            color: crimson;
+        }
+
+        #para::before {
+            content: "MERN Developer";
+            font-size: 2rem;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+
+        #para::after {
+            content: " 9 months Job Bootcamp";
+        }
+    </style>
+</head>
+
+<body>
+    <p>This is a paragraph</p>
+
+    <p>This is a second paragraph</p>
+
+    <table>
+        <tr>
+            <th>Frontend</th>
+            <th>Backend</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>NodeJS</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>ExpressJS</td>
+        </tr>
+
+        <tr>
+            <td>JS</td>
+            <td>MongoDB</td>
+        </tr>
+    </table>
+
+    <h1 class="small">Hello World!</h1>
+    <h2 class="small">Hello World!</h2>
+    <h3 class="small">Hello World!</h3>
+    <h4 class="larger">Hello World!</h4>
+    <h5 class="larger">Hello World!</h5>
+    <h6 class="larger">Hello World!</h6>
+
+    <button id="first_btn">Submit</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque voluptate soluta, illo asperiores magni,
+        earum delectus, error eveniet distinctio dolores dolore nam repellat ipsa excepturi? Minus a qui expedita.</p>
+
+    <h3>Namaste Duniya</h3>
+
+    <a href="#">Go to top</a>
+
+    <p id="info">Selector is a just way to select an element for applying styling.</p>
+    <h3>Codehelp Dot Batch</h3>
+
+    <input type="text" id="name" placeholder="Enter your name" required />
+    <br />
+    <input type="number" id="number" placeholder="Enter your number" min="0" required />
+
+    <p id="para">Coding Ninjas</p>
+</body>
+
+</html>

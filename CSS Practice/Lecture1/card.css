@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 344px;
+    width: 315px;
+    border: 1px solid #FFFFFF;
+    margin: 75px auto;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px;
+}
+
+.logo {
+    width: 320px;
+    height: 210px;
+    margin: 10px 8px;
+    margin-bottom: 0px;
+}
+
+#webimg {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.content {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin: 0px 8px;
+}
+
+.price {
+    margin: 10px 8px;
+}
+
+.dis {
+    color: #6674CC;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 12px;
+}
+
+.cut-price {
+    text-decoration: line-through;
+    color: #777C85;
+    padding: 12px;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #1DD1A1;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border-color: #1DD1A1;
+}
