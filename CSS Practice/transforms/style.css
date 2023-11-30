@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#my-app {
+    display: none;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.translated {
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.scaled {
+    transform: perspective(350px) scaleZ(2) rotateX(45deg) rotateY(30deg);
+}
+
+.rotated {
+    transform: rotateZ(45deg);
+}
