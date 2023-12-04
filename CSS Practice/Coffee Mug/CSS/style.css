@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.card {
+    height: 330px;
+    width: 700px;
+    display: flex;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.card-left {
+    background-image: url('../images/mug.jpg');
+    height: 100%;
+    width: 1386px;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.card-right {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.intro {
+    text-transform: uppercase;
+    color: rgba(128, 128, 128, 0.753);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin: 0.6rem 1rem;
+}
+
+h2 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.6rem 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0.6rem 1rem;
+}
+
+.price {
+    color: darkgreen;
+    font-weight: 700;
+    margin: 0.6rem 1rem;
+    font-size: x-large;
+}
+
+.remove {
+    text-decoration: line-through;
+    font-weight: 400;
+    color: gray;
+}
+
+.btn {
+    margin: 0.6rem 1rem;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: cursive;
+    word-spacing: 2px;
+    height: 2.4rem;
+    width: 234px;
+    padding: 5px 0;
+    border-radius: 12px;
+}
